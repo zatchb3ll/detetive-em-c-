@@ -134,9 +134,9 @@ void liberarMansao(Sala* sala) {
  * alocada através de liberarMansao().
  */
 int main() {
-    printf("╔════════════════════════════════════════╗\n");
+    printf("╔════════════════════════════════════════ ╗\n");
     printf("║     BEM-VINDO AO DETECTIVE QUEST      ║\n");
-    printf("║   Explore a Mansão e Encontre Pistas  ║\n");
+    printf("║                                        ║\n");
     printf("╚════════════════════════════════════════╝\n\n");
     printf("Instruções: Use 'e' para ir à esquerda, 'd' para ir à direita,\n");
     printf("ou 's' para sair a qualquer momento.\n");
