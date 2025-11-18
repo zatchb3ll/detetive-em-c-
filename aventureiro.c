@@ -1,4 +1,4 @@
-/* Bibliotecas */
+////////* Bibliotecas *//////////
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -69,8 +69,7 @@ PistaNode* inserirPista(PistaNode* raiz, const char* pista) {
 }
 
 /*
- * exibirPistas()
- Percorre a árvore em ordem (inorder) para exibir as pistas alfabeticamente.
+ * exibirPistas() Percorre a árvore em ordem (inorder) para exibir as pistas alfabeticamente.
  */
 void exibirPistas(PistaNode* raiz) {
     if (raiz != NULL) {
@@ -89,10 +88,9 @@ void liberarPistas(PistaNode* raiz) {
         liberarPistas(raiz->direita);
         free(raiz);
     }
-}
+} 
 
-/*
- * explorarSalasComPistas() – controla a navegação entre salas e coleta de pistas.
+/*explorarSalasComPistas() – controla a navegação entre salas e coleta de pistas.
  */
 void explorarSalasComPistas(Sala* sala, PistaNode** pistasColetadas) {
     if (sala == NULL) {
